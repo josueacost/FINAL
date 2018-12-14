@@ -1,0 +1,44 @@
+﻿-
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `persona`
+--
+
+CREATE TABLE `persona` (
+  `Id` int(11) NOT NULL,
+  `DNI` varchar(8) NOT NULL,
+  `Nombres` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Volcado de datos para la tabla `persona`
+--
+
+INSERT INTO `persona` (`Id`, `DNI`, `Nombres`) VALUES
+(2, '132324', 'Petuel'),
+(3, '45653543', 'Joel Perez');
+
+--
+-- Índices para tablas volcadas
+--
+
+--
+-- Indices de la tabla `persona`
+--
+ALTER TABLE `persona`
+  ADD PRIMARY KEY (`Id`);
+
+--
+-- AUTO_INCREMENT de las tablas volcadas
+--
+
+--
+-- AUTO_INCREMENT de la tabla `persona`
+--
+ALTER TABLE `persona`
+  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

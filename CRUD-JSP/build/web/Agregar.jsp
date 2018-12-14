@@ -1,8 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> parent of 2366d8a... Revert "borrado"
 
+=======
+>>>>>>> 0ea3f0147993f3cbb5722394b77576524d7a8f12
 <%@page import="java.awt.TrayIcon.MessageType"%>
 <%@page import="javax.swing.JOptionPane"%>
 <%@page import="java.sql.*"%>
