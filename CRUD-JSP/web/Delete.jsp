@@ -1,8 +1,3 @@
-<%-- 
-    Document   : Delete
-    Created on : 02/02/2018, 03:34:00 PM
-    Author     : Joel
---%>
 
 <%@page import="java.sql.*"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
