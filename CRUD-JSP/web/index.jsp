@@ -9,7 +9,7 @@
     </head>
     <body style="margin-top: 30px">      
         <%
-            //CONECTANOD A LA BASE DE DATOS:
+            //NOS CONECTAMOS CON LA BASE DE DATOS
             Connection con;
             String url = "jdbc:mysql://localhost:3306/bd_practica" ;
             String Driver = "com.mysql.jdbc.Driver";
@@ -18,12 +18,12 @@
             Class.forName(Driver);
             con = DriverManager.getConnection(url, user, clave);
             PreparedStatement ps;
-            //Emnpezamos Listando los Datos de la Tabla Usuario
+            //USUARIO
             Statement smt;
             ResultSet rs;
             smt = con.createStatement();
             rs = smt.executeQuery("select * from usuario");
-            //Creamo la Tabla:     
+            //CREAMOS LA TABLA  
         %>
         <div class="container">            
             <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">New Add</button>
