@@ -9,7 +9,7 @@
     </head>
     <body>
         <%
-       //CONECTANOD A LA BASE DE DATOS:
+       
        Connection con;
        String url="jdbc:mysql://localhost:3306/bd_practica";
        String Driver="com.mysql.jdbc.Driver";
