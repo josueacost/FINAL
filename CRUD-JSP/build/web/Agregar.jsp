@@ -1,4 +1,3 @@
-
 <%@page import="java.awt.TrayIcon.MessageType"%>
 <%@page import="javax.swing.JOptionPane"%>
 <%@page import="java.sql.*"%>
