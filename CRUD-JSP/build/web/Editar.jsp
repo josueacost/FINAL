@@ -1,4 +1,8 @@
-
+<%-- 
+    Document   : Editar
+    Created on : 02/02/2018, 03:33:51 PM
+    Author     : Joel
+--%>
 
 <%@page import="java.sql.*"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

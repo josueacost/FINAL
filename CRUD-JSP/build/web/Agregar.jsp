@@ -1,4 +1,8 @@
-
+<%-- 
+    Document   : Agregar
+    Created on : 02/02/2018, 01:11:48 PM
+    Author     : Joel
+--%>
 
 <%@page import="java.awt.TrayIcon.MessageType"%>
 <%@page import="javax.swing.JOptionPane"%>
