@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> parent of 2366d8a... Revert "borrado"
 
 <%@page import="java.awt.TrayIcon.MessageType"%>
 <%@page import="javax.swing.JOptionPane"%>
